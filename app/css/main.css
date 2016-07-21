@@ -1,0 +1,188 @@
+*::-webkit-input-placeholder {
+  opacity: 1; }
+
+*:-moz-placeholder {
+  opacity: 1; }
+
+*::-moz-placeholder {
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  opacity: 1; }
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 11px;
+  padding-bottom: 2px; }
+  footer ul {
+    margin-top: 19px;
+    float: left;
+    padding-left: 0;
+    padding-right: 0; }
+    footer ul li {
+      float: left;
+      margin-right: 20px; }
+      footer ul li a {
+        text-decoration: none;
+        color: #616161;
+        font-size: 16px; }
+      footer ul li a:hover {
+        text-decoration: none;
+        color: #fff; }
+  footer .gs {
+    float: right;
+    margin: 9px;
+    margin-right: 15px;
+    display: block; }
+  footer .gs:visited, footer .gs:active {
+    text-decoration: none; }
+
+/* ---------------------------- Form ----------------------------*/
+.form_group {
+  text-align: center;
+  position: relative; }
+
+.form-control {
+  border-color: #7f7f7f;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #7f7f7f; }
+
+.form_input {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  vertical-align: top; }
+
+.form_icon {
+  position: absolute;
+  width: 40px;
+  color: rgba(182, 125, 75, 0.59);
+  z-index: 11;
+  text-align: center; }
+
+.form_icon i {
+  font-size: 18px;
+  line-height: 55px; }
+
+.allert, .allert_tell {
+  position: absolute;
+  z-index: 20;
+  top: 20px;
+  display: block;
+  right: 18px;
+  height: 20px;
+  color: #FF6565;
+  cursor: default; }
+
+.er_border, .error {
+  border: 0px solid rgba(152, 2, 2, 0.95) !important; }
+
+.allert:hover, .allert_tell:hover {
+  text-decoration: none; }
+
+.allert span, .allert_tell span {
+  display: none;
+  opacity: 0;
+  padding: 5px;
+  margin-left: 5px;
+  color: #000;
+  font-style: italic;
+  font-size: 14px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  min-width: 140px;
+  text-align: left; }
+
+.allert:hover span, .allert_tell:hover span {
+  border: 1px solid #FF6565;
+  background: #fff;
+  display: inline;
+  position: absolute;
+  color: #4e4e4e;
+  right: 24px;
+  top: -6px;
+  opacity: 1; }
+
+/* ============================ modal css =========================== */
+.md_large {
+  max-width: 100%;
+  width: 90%; }
+
+.md_large .md-content > div.md_content {
+  padding: 0px 40px 0px; }
+
+.md_large .md-content p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "OpenSans-Regular"; }
+
+.md_large .md-content p:first-child {
+  padding-top: 24px; }
+
+.md_large .md-content p:last-child {
+  padding-bottom: 24px; }
+
+.md_large .md_content {
+  max-height: 450px;
+  overflow: auto;
+  padding-top: 24px; }
+
+.md_bottom {
+  padding: 12px 0 0 0; }
+
+.btn_close_modal {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  text-align: center;
+  z-index: 1111;
+  cursor: pointer; }
+
+.btn_close_modal:hover {
+  opacity: 0.6; }
+
+.btn_close_modal a {
+  color: rgba(209, 34, 42, 0.5);
+  width: 25px;
+  height: 25px;
+  display: block; }
+
+.btn_close_modal a:hover {
+  color: #d1222a; }
+
+.md-content .form_input {
+  width: 65%; }
+
+.botton_form {
+  width: 100%; }
+
+/* ------------------- footer ------------------- */
+/* ------------------- You style hear ------------------- */
+.gray {
+  color: #999; }
+
+input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 11px 18px 11px 38px;
+  background: none;
+  background-image: none;
+  border: 1px solid rgba(207, 207, 207, 0);
+  font-size: 16px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  color: #fff; }

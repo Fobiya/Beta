@@ -1,0 +1,97 @@
+@import "bourbon";
+
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+
+  /*CSS  Web~Oman*/
+
+  h2 {
+
+    }
+
+
+  .tr{
+    text-align: center !important;
+  }
+
+  [class*="section_"] {
+    margin-bottom: 50px !important;
+  }
+  br{
+    display: none;
+  }
+
+  /*CSS END Web~Oman*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+
+
+  #timer1f03fc5ce00d96faf74c6fef0288496c {
+    min-width: 206px !important;
+    margin-bottom: 30px!important;
+    padding: 0!important;
+
+
+  }
+
+  .timer-separator{
+    padding: 0px 8px!important;
+    width: 4px !important;
+  }
+
+  .timer-element{
+    width: 50px!important;
+    height: 50px!important;
+  }
+  #timer-canvas-1f03fc5ce00d96faf74c6fef0288496c-days,#timer-canvas-1f03fc5ce00d96faf74c6fef0288496c-hours,
+  #timer-canvas-1f03fc5ce00d96faf74c6fef0288496c-minutes,#timer-canvas-1f03fc5ce00d96faf74c6fef0288496c-secundes{
+
+    display: none;
+  }
+
+  #timer-number-value-1f03fc5ce00d96faf74c6fef0288496c-days,#timer-number-value-1f03fc5ce00d96faf74c6fef0288496c-hours,
+  #timer-number-value-1f03fc5ce00d96faf74c6fef0288496c-minutes,#timer-number-value-1f03fc5ce00d96faf74c6fef0288496c-secundes{
+    font-size: 28px;
+
+    margin-top: -60px;
+  }
+
+  #timer-number-1f03fc5ce00d96faf74c6fef0288496c-days,#timer-number-1f03fc5ce00d96faf74c6fef0288496c-hours,
+  #timer-number-1f03fc5ce00d96faf74c6fef0288496c-minutes,#timer-number-1f03fc5ce00d96faf74c6fef0288496c-secundes{
+    margin-top: -20px !important;
+    margin-bottom: 10px !important;
+  }
+
+
+
+}
